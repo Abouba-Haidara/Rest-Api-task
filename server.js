@@ -18,7 +18,7 @@ mc.connect();
 // ecouté sur le numero du port
 app.listen(port);
 
-console.log("API server started on: " + port);
+console.log("ok.API server started on: " + port);
 
 app.use(
   bodyParser.urlencoded({
